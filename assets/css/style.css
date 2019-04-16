@@ -210,3 +210,97 @@ hr {
   padding: 20px;
   box-shadow: 0px 0px 10px 3px rgba(155, 5, 3, .7);
 }
+
+/*--- Footer ---*/
+
+.footer-wrapper {
+  width: 100%;
+  height: auto;
+  min-height: 100px;
+  margin: auto;
+  background-color: rgba(155, 5, 3, .7);
+}
+
+.footer-social-icons {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.footer-social-icons ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer-social-icons ul li {
+  display: inline-block;
+  margin-right: 2px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+}
+
+.footer-social-icons ul li a {
+  color: #F8B719;
+  display: block;
+  font-size: 22px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+}
+
+.footer-social-icons ul li a i:hover {
+  color: #CA7C4A !important;
+}
+
+.container-footer {
+  background-size: 500px;
+  padding: 20px 10px;
+  text-align: center;
+  color: #F8B719;
+}
+
+.email-box {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.email-box i {
+  background: #F8B719;
+  width: 40px;
+  line-height: 40px;
+  color: #9B0503;
+}
+
+.email-box p {
+  text-transform: uppercase;
+}
+
+.tbox,
+.btn {
+  border: 0;
+  outline: none;
+  background: #F8B719;
+}
+
+.tbox {
+  width: 0;
+  transition: .6s;
+  background: #fff;
+
+}
+
+.email-box:hover>.tbox,
+.tbox:focus {
+  width: 260px;
+  padding: 0 10px;
+
+}
+
+.btn {
+  color: #9B0503;
+  padding: 0 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
