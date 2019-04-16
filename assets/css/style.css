@@ -178,3 +178,20 @@ p {
 hr {
   border-top: 2px solid rgba(155, 5, 3, .7);
 }
+
+/*--- Gallery --*/
+
+.fixed {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)), url(../../assets/img/monkees1.jpg);
+  z-index: -1;
+}
+
+.fixed-background h3 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.fixed-background p {
+  margin-top: 30px;
+}
+
