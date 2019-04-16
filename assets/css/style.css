@@ -131,3 +131,33 @@ p {
 .navbar-nav a:hover {
   color: #CA7C4A !important;
 }
+
+/*--- Landing Page --*/
+
+.home-inner {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .1)), url(../../assets/img/monkees3.jpg);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.caption h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 10px black;
+  padding-bottom: 15px;
+}
+
+.caption h3 {
+  font-size: 30px;
+  text-shadow: 2px 2px 10px black;
+  letter-spacing: 3px;
+  margin-bottom: 30px;
+}
