@@ -105,3 +105,29 @@ p {
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
+
+/*--- Navigation --*/
+
+.navbar {
+  background-color: rgba(155, 5, 3, .7) !important;
+  color: #F8B719 !important;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.navbar-nav {
+  margin-right: 30px;
+}
+
+.navbar-nav a {
+  font-size: 20px;
+  color: #F8B719 !important;
+  margin: 20px;
+  padding: 20px;
+}
+
+.navbar-nav a:hover {
+  color: #CA7C4A !important;
+}
