@@ -311,6 +311,13 @@ hr {
   .navbar-brand {
     margin: 0;
   }
+  
+  .navbar-nav a {
+    font-size: 20px;
+    color: #F8B719 !important;
+    margin: 20px;
+    padding: 20px;
+}
 
   .caption {
     font-size: 20px;
